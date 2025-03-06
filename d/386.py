@@ -1,5 +1,6 @@
 N, M = map(int, input().split())
 
+#W[y] <= B[y] かつ  W[x] <= B[x] という状況になったら、その時点でNoを出力する
 coordinates = []
 for i in range(M):
     y, x, c = input().split()
